@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bien hecho | Amor y amistad</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<style>
+#container {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+span {
+  text-align: center;
+  color: #a05188;
+  z-index: 2;
+  font-weight: bold;
+  margin-bottom: -20px;
+  }
+
+#p {
+  font: 2em sans-serif;
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  color: white;
+  }
+
+#again {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  border: transparent;
+  background-color: rgb(255, 255, 255);
+  width: 7em;
+  height: 1.5em;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.932);
+  margin-top: 20px;
+  z-index: 2;
+}
+
+#again:hover {
+  background-color: rgba(189, 158, 201, 0.603);
+  cursor: pointer;
+}
+
+#footer {
+  position: relative;
+  z-index: 1;
+  bottom: 0;
+}
+
+footer img {
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+footer p {
+  background-color: transparent;
+  bottom: 1rem;
+  width: 100%;
+  font: 1em sans-serif;
+  color: rgba(0, 0, 0, 0.651);
+}
+
+@media only screen and (min-height: 768px) {
+  #container {
+    width: 100vw;
+    height: 75vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #container {
+    width: 100vw;
+    height: 62vh;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  #container {
+    width: 100vw;
+    height: 35vh;
+  }
+  
+  footer img {
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+}
+
+</style>
+<body>
+  <!-- Encabezado con logo y titulo general -->
+  <header>
+    <img id="logo-bristol" src="./pics/Bristol-Myers_Squibb_logo_(LittleOne).png" alt="Logo Bristol">
+  </header>
+
+  <!-- Contenedor principal con informacion central de la pagina -->
+  <main id="container">
+    <p id="p">Haz finalizado el juego
+    <br><span>¡lo lograste!</span></p>
+
+    <div id="buttons-words">
+      <button id="again"><a href="./index.html">Ir al inicio</a></button>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <img src="./pics/clouds_opt.png" alt="">
+    <p>Equipo Biopharma ambiente de trabajo.</p>
+  </footer>
+</body>
+</html>
