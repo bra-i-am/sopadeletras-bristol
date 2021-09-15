@@ -154,12 +154,12 @@ input {
 @media only screen and (min-width: 768px) {
   /* Each square in the puzzle */
   .puzzleSquare { 
-    height: 5vw;
-    width: 5vw;
+    height: 7vw;
+    width: 7vw;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.308);
     border: 0;
-    font: 4vw sans-serif;
+    font: 6vw sans-serif;
   }
 }
 
