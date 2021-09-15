@@ -23,7 +23,7 @@ p {
 footer {
   background-color: transparent;
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 0;
   width: 100%;
 }
 
@@ -88,12 +88,12 @@ a {
 
 /* Each square in the puzzle */
 .puzzleSquare { 
-  height: 5vw;
-  width: 5vw;
+  height: 6.5vw;
+  width: 6.5vw;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.308);
   border: 0;
-  font: 4vw sans-serif;
+  font: 5vw sans-serif;
 }
 
 /* Configuracion palabras a buscar */
@@ -154,17 +154,17 @@ input {
 @media only screen and (min-width: 768px) {
   /* Each square in the puzzle */
   .puzzleSquare { 
-    height: 7vw;
-    width: 7vw;
+    height: 5vw;
+    width: 5vw;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.308);
     border: 0;
-    font: 5vw sans-serif;
+    font: 4vw sans-serif;
   }
 }
 
 /* Laptop devices */
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1024px) {
   #puzzle {
     border: 0.125rem solid #a05188;
     padding: 1vw;
