@@ -90,6 +90,12 @@ footer p {
   position: fixed;
 }
 
+#logo-bristol {
+  float: left;
+  width: 10em;
+  margin: 3% 5%;
+}
+
 @media only screen and (min-height: 768px) {
   #container {
     width: 100vw;
@@ -133,12 +139,26 @@ footer p {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  #logo-bristol {
+    float: left;
+    width: 17em;
+    margin: 3% 5%;
+  }
+}
+
 @media only screen and (min-width: 1366px) {
   #container {
     width: 100vw;
     height: 35vh;
   }
   
+  #logo-bristol {
+    float: left;
+    width: 17em;
+    margin: 3% 5%;
+  }
+
   footer img {
   width: 100vw;
   background-position: center;
